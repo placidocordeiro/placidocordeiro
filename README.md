@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @placidocordeiro;
+- 👀 I’m interested in frontend and backend developing;
+- 🌱 I’m currently learning emmbed systems;
+- 📫 How to reach me:
+- - e-mail: paoc@ic.ufal.br
+- ⚡ Fun fact: i'm also a game developer.
