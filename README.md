@@ -1,44 +1,56 @@
-## Olá, meu nome é Plácido!
+<h1 align="center">
+  Hello, I'm Plácido!
+</h1>
 
-### Minhas Skills
+<p align="center">
+  💻 Programmer</br>
+  ⚡ Embbeded systems enthusiast</br>
+  🎓 Studying computer engineering
+</p>
 
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/arduino/arduino.png" alt="Arduino"/></code>
-<code><img height="32" src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png" alt="C"/></code>
-<code><img height="32" src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++"/></code>
-<code><img height="32" src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-language-pack-logos-icons-1174953.png?f=webp&w=256" alt="Java"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png" alt="Flutter"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png" alt="Go"/></code>
-<code><img height="32" src="https://img.icons8.com/ios_filled/200/FFFFFF/github.png" alt="Github"/></code>
-<code><img height="32" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git"/></code>
+<h2 align="center">
+  ⚙️ My skills
+</h2>
 
----
+<p align="center">
+    <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,c,cpp,cmake,java,python,flutter,go,github,git,docker,vscode" />
+</p>
 
-### ⚙️ GitHub Analytics
 
-<table>
-  <tr>
-    <td>
-      <img
-        align="left"
-        src="https://github-readme-stats.vercel.app/api?username=tubarissimo&theme=dark&hide_border=false&include_all_commits=true"
-        alt="Github Stats"
-      />
-    </td>
-    <td>
-      <img
-        align="left"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=tubarissimo&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
-        alt="Github Stats"
-      />
-    </td>
-    <td>
-      <br />
-      <img
-        align="left"
-        src="https://github-readme-streak-stats.herokuapp.com/?user=tubarissimo&theme=dark&hide_border=false"
-        alt="Github Stats"
-      />
-    </td>
-  </tr>
-</table>
+
+
+
+![Plácido's github stats](https://github-readme-stats.vercel.app/api?username=placidocordeiro&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=placidocordeiro&layout=compact&theme=tokyonight&hide=Jupyter%20Notebook)](https://github.com/placidocordeiro/github-readme-stats)
+
+<h2 align="center">
+  📬 Contact
+</h2>
+
+<p align="center">
+  Feel free to contact me to discuss collaborations, interesting projects, or anything else related to computing.
+</p>
+
+[![Gmail Badge](https://img.shields.io/badge/-paoc@ic.ufal.br-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:paoc@ic.ufal.br)](mailto:paoc@ic.ufal.br)
+[![Linkedin: LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pl%C3%A1cido-cordeiro-74a8b6276/)](https://www.linkedin.com/in/pl%C3%A1cido-cordeiro-74a8b6276)
+[![GitHub](https://img.shields.io/github/followers/placidocordeiro?label=follow&style=social)](https://github.com/placidocordeiro)
+
+<h2 align="center">
+  📕 Repositories
+</h2>
+
+<div align="center">
+  <a align="center" href="https://github.com/placidocordeiro/Remote-Controlled-Robot" title="Remote-Controlled-Robot">
+    <img align="center" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=Remote-Controlled-Robot&theme=tokyonight">
+  </a>
+  <a align="center" href="https://github.com/placidocordeiro/Huffman" title="Huffman">
+    <img align="center" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=Huffman&theme=tokyonight">
+  </a>
+  <a align="center" href="https://github.com/placidocordeiro/GamingPlatform" title="GamingPlatform">
+    <img align="center" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=GamingPlatform&theme=tokyonight">
+  </a>
+  <a align="center" href="https://github.com/placidocordeiro/CompetitiveProgramming" title="CompetitiveProgramming">
+    <img align="center" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=CompetitiveProgramming&theme=tokyonight">
+  </a>
+</div>
+
