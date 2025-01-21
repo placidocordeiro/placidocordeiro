@@ -16,12 +16,8 @@
     <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,c,cpp,cmake,java,python,flutter,go,github,git,docker,vscode" />
 </p>
 
-
-
-
-
-![Plácido's github stats](https://github-readme-stats.vercel.app/api?username=placidocordeiro&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=placidocordeiro&layout=compact&theme=tokyonight&hide=Jupyter%20Notebook)](https://github.com/placidocordeiro/github-readme-stats)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=placidocordeiro&show_icons=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=placidocordeiro&layout=compact&theme=tokyonight)
 
 <h2 align="center">
   📬 Contact
@@ -53,4 +49,3 @@
     <img align="center" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=CompetitiveProgramming&theme=tokyonight">
   </a>
 </div>
-
