@@ -42,6 +42,9 @@
   <a align="center" href="https://github.com/placidocordeiro/Huffman" title="Huffman">
     <img align="center" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=Huffman&theme=tokyonight">
   </a>
+  <a align="center" href="https://github.com/jotaf06/Kahoot-Redes" title="Kahoot-Redes">
+    <img align="center" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=jotaf06&repo=Kahoot-Redes&theme=tokyonight">
+  </a>
   <a align="center" href="https://github.com/placidocordeiro/GamingPlatform" title="GamingPlatform">
     <img align="center" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=GamingPlatform&theme=tokyonight">
   </a>
