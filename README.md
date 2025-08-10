@@ -13,7 +13,7 @@
 </h2>
 
 <p align="center">
-    <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,c,cpp,cmake,java,python,flutter,go,github,git,docker,vscode" />
+    <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,c,cpp,cmake,java,python,flutter,github,git,docker,vscode" />
 </p>
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=placidocordeiro&show_icons=true&theme=tokyonight)
