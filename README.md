@@ -3,9 +3,9 @@
   </h1>
 
   <p align="center">
-    <b>Focused on Digital Hardware and Reconfigurable Systems</b><br>
+    <b>Focused on Digital Hardware, Reconfigurable Systems and Operational Research</b><br>
     🎓 Computer Engineering student at the Federal University of Alagoas<br>
-    ⚡ Experience with Verilog, VHDL, FPGAs, and digital logic projects
+    ⚡ Experience with Verilog, VHDL, FPGAs, and Optimization Algorithms
   </p>
 
   <h2 align="center">
@@ -48,15 +48,22 @@
   </h2>
 
   <table align="center">
-    <tr>
+    <tr align="center">
+      <td colspan="2">
+        <a href="https://github.com/placidocordeiro/routing-algorithm-for-FPGA" title="routing-algorithm-for-FPGA">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=routing-algorithm-for-FPGA&theme=tokyonight" width="700"/>
+        </a>
+      </td>
+      </tr>
+      <tr>
       <td>
         <a href="https://github.com/placidocordeiro/ALU-Verilog" title="ALU-Verilog">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=ALU-Verilog&theme=tokyonight" width="350"/>
         </a>
       </td>
       <td>
-        <a href="https://github.com/placidocordeiro/Remote-Controlled-Robot" title="Remote-Controlled-Robot">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=Remote-Controlled-Robot&theme=tokyonight" width="350"/>
+        <a href="https://github.com/placidocordeiro/CompetitiveProgramming" title="CompetitiveProgramming">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=CompetitiveProgramming&theme=tokyonight" width="350"/>
         </a>
       </td>
     </tr>
@@ -74,13 +81,13 @@
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/placidocordeiro/GamingPlatform" title="GamingPlatform">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=GamingPlatform&theme=tokyonight" width="350"/>
+        <a href="https://github.com/placidocordeiro/minicurso-arduino-avancado" title="minicurso-arduino-avancado">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=minicurso-arduino-avancado&theme=tokyonight" width="350"/>
         </a>
       </td>
       <td>
-        <a href="https://github.com/placidocordeiro/CompetitiveProgramming" title="CompetitiveProgramming">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=CompetitiveProgramming&theme=tokyonight" width="350"/>
+        <a href="https://github.com/placidocordeiro/minicurso-arduino-basico" title="minicurso-arduino-basico">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=placidocordeiro&repo=minicurso-arduino-basico&theme=tokyonight" width="350"/>
         </a>
       </td>
     </tr>
