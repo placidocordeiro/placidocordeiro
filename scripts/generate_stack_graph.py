@@ -2,6 +2,7 @@ import os
 import base64
 import mimetypes
 import re
+import shutil
 import subprocess
 import tempfile
 from pathlib import Path
@@ -12,7 +13,9 @@ ICONS_DIR = Path("stack-icons")
 OUTPUT_NAME = "stack-graph"
 FONT_NAME = "JetBrains Mono, Fira Code, DejaVu Sans Mono, Consolas, monospace"
 ICON_NODE_SIZE = "1.0"
-ICON_PNG_SIZE = "256x256"
+ICON_PNG_SIZE = "1024x1024"
+ICON_PNG_PIXELS = 1024
+GRAPH_PNG_DPI = "288"
 
 CATEGORY_COLORS = [
     "#38bdf8",
@@ -61,15 +64,47 @@ def safe_filename(value):
     return re.sub(r"[^A-Za-z0-9_.-]+", "_", value).strip("_")
 
 
+def image_magick_command():
+    if shutil.which("magick"):
+        return ["magick"]
+    if shutil.which("convert"):
+        return ["convert"]
+    raise RuntimeError("ImageMagick nao encontrado. Instale o pacote 'imagemagick'.")
+
+
+def run_command(command):
+    subprocess.run(command, check=True, capture_output=True, text=True)
+
+
 def prepare_icon(icon_path, output_dir, node_id):
     output_path = output_dir / f"{safe_filename(node_id)}.png"
-    command = [
-        "magick",
+    source_path = icon_path
+
+    if icon_path.suffix.lower() == ".svg":
+        if shutil.which("rsvg-convert"):
+            source_path = output_dir / f"{safe_filename(node_id)}-raw.png"
+            run_command([
+                "rsvg-convert",
+                "--keep-aspect-ratio",
+                "--width",
+                str(ICON_PNG_PIXELS),
+                "--height",
+                str(ICON_PNG_PIXELS),
+                "--output",
+                str(source_path),
+                str(icon_path),
+            ])
+
+    command = image_magick_command() + [
         "-background",
         "none",
-        "-density",
-        "384",
-        str(icon_path),
+    ]
+
+    if icon_path.suffix.lower() == ".svg" and source_path == icon_path:
+        command.extend(["-density", GRAPH_PNG_DPI])
+
+    command.extend([
+        str(source_path),
         "-resize",
         ICON_PNG_SIZE,
         "-gravity",
@@ -78,13 +113,9 @@ def prepare_icon(icon_path, output_dir, node_id):
         ICON_PNG_SIZE,
         "-strip",
         f"png32:{output_path}",
-    ]
+    ])
 
-    try:
-        subprocess.run(command, check=True, capture_output=True, text=True)
-    except (FileNotFoundError, subprocess.CalledProcessError) as error:
-        print(f"Aviso: nao foi possivel normalizar {icon_path}: {error}")
-        return icon_path
+    run_command(command)
 
     return output_path
 
@@ -165,9 +196,13 @@ def main():
                 )
                 g.edge(category, node_id, color=color)
 
-        output_path = g.render(OUTPUT_NAME, cleanup=True)
-        inline_svg_images(output_path)
-        print(f"Gerado: {output_path}")
+        svg_path = g.render(OUTPUT_NAME, format="svg", cleanup=True)
+        inline_svg_images(svg_path)
+
+        g.attr(dpi=GRAPH_PNG_DPI)
+        png_path = g.render(OUTPUT_NAME, format="png", cleanup=True)
+        print(f"Gerado: {svg_path}")
+        print(f"Gerado: {png_path}")
 
 
 if __name__ == "__main__":
